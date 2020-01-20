@@ -19,7 +19,7 @@
     init: function(options) {
       const $this = this;
       this.$dataTestAttributeValue = "";
-      this.testAttribute = options.testDataAttribute || "e2e-test";
+      this.testAttribute = options.testDataAttribute || "data-test";
       this.toggleTooltip();
 
       $("body").keydown(function(event) {
